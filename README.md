@@ -7,6 +7,7 @@
 <div align="center">
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ZairoLins&show_icons=true&theme=dark)
+
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ZairoLins&layout=compact&theme=dark)
 
 </div>
