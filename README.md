@@ -124,4 +124,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zairolins&theme=radical&layout=compact&langs_count=6&locale=pt-br" alt="Top Langs" width="38%"> 
 </div>
 
+![Snake animation](https://github.com/ZairoLins/ZairoLins/.github/Workflows/cobrinha.yml)
+
+
 
