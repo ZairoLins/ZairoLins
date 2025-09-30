@@ -6,6 +6,7 @@
 
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5563999953031)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lins_ribeir0)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ZairoLins)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ZairoLins/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zairolins15@gmail.com)
 
@@ -79,9 +80,9 @@
     align="left"
     alt="Docker"
     title="Docker"
-    width="40px"
-    style="padding-right: 10px;"
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg"
+    width="50px"
+    style="padding-right: 15px;"
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg"
   />
 
   <img
@@ -101,6 +102,16 @@
     style="padding-right: 10px;"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
   />
+  
+  <img
+  align="left"
+  alt="Vercel"
+  title="Vercel"
+  width="40px"
+  style="padding-right: 10px;"
+  src="https://assets.vercel.com/image/upload/v1662130559/front/favicon/vercel/180x180.png"
+/>
+
 </p>
 
 <br clear="both"/>
@@ -108,7 +119,9 @@
 
 ## Estatísticas📈
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZairoLins&show_icons=true&theme=radical&rank_icon=github" alt="ZairoLins GitHub Stats" width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zairolins&theme=radical&layout=compact&langs_count=6" alt="Top Langs" width="38%">
+<div style="display: flex; justify-content: center; gap: 20px;"> 
+  <img src="https://github-readme-stats.vercel.app/api?username=ZairoLins&show_icons=true&theme=radical&rank_icon=github&locale=pt-br" alt="ZairoLins GitHub Stats" width="50%"> 
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zairolins&theme=radical&layout=compact&langs_count=6&locale=pt-br" alt="Top Langs" width="38%"> 
 </div>
+
+
