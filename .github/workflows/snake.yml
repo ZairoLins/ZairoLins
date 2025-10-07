@@ -2,7 +2,6 @@ name: Snake Game (Black Edition)
 
 on:
   schedule:
-    # Atualiza a cada 6 horas
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
@@ -22,12 +21,13 @@ jobs:
           github_user_name: ZairoLins
           outputs: |
             dist/github-contribution-grid-snake.svg
-          # Tema escuro e elegante
-          color_snake: "#a855f7"       # Roxo neon (pode trocar por verde, azul, etc.)
-          color_dots: "#0d1117"        # Fundo padrão dark do GitHub
-          color_path: "#6e40c9"        # Trilho suave roxo
-          color_border: "#0d1117"      # Sem bordas visíveis
-          enable_animations: true      # Garante o movimento da cobrinha
+          # ===== Cores do tema Black =====
+          color_snake: "#a855f7"       # Roxo neon
+          color_dots: "#161b22"        # Fundo do grid (dark GitHub)
+          color_path: "#a855f7"        # Mesma cor da cobrinha
+          color_border: "#161b22"      # Remove borda visível
+          color_fill: "#0d1117"        # Fundo total preto
+          enable_animations: true
 
       - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
