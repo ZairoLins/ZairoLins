@@ -124,7 +124,11 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zairolins&theme=radical&layout=compact&langs_count=6&locale=pt-br" alt="Top Langs" width="38%"> 
 </div>
 
-![snake gif](https://github.com/ZairoLins/ZairoLins/blob/output/github-contribution-grid-snake-dark.svg)
+![Snake animation](https://raw.githubusercontent.com/ZairoLins/ZairoLins/output/github-contribution-grid-snake.svg)
+
+
+
+
 
 
 
