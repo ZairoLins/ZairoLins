@@ -1,4 +1,4 @@
-name: Generate Snake Game
+name: Snake Game (Black Edition)
 
 on:
   schedule:
@@ -6,31 +6,30 @@ on:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
-# Permite que o bot possa dar push nos arquivos gerados
 permissions:
   contents: write
 
 jobs:
   build:
-    name: Generate snake from GitHub contributions
     runs-on: ubuntu-latest
-
     steps:
-      # Clona o repositório
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Gera os arquivos (SVG e GIF)
-      - name: Generate snake animation
+      - name: Generate Snake animation (Black Edition)
         uses: Platane/snk@v3
         with:
           github_user_name: ZairoLins
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake.gif
+          # Tema escuro e elegante
+          color_snake: "#a855f7"       # Roxo neon (pode trocar por verde, azul, etc.)
+          color_dots: "#0d1117"        # Fundo padrão dark do GitHub
+          color_path: "#6e40c9"        # Trilho suave roxo
+          color_border: "#0d1117"      # Sem bordas visíveis
+          enable_animations: true      # Garante o movimento da cobrinha
 
-      # Publica os arquivos no branch "output"
-      - name: Push to output branch
+      - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
